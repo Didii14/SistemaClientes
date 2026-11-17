@@ -1,0 +1,69 @@
+﻿/* Estilos generales */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Pantalla de login */
+.login-fondo {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.login-tarjeta {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.login-icono {
+    font-size: 3rem;
+    color: #2a5298;
+}
+
+/* Barra de navegacion */
+.barra-principal {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+    .barra-principal .nav-link {
+        color: rgba(255, 255, 255, 0.85);
+    }
+
+        .barra-principal .nav-link:hover,
+        .barra-principal .nav-link.active {
+            color: #ffffff;
+        }
+
+/* Contenido */
+.contenido-principal {
+    min-height: calc(100vh - 56px - 60px);
+}
+
+.pie-pagina {
+    background-color: #ffffff;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Tarjetas del dashboard */
+.tarjeta-dashboard {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+    .tarjeta-dashboard:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    }
+
+.tarjeta-icono {
+    font-size: 2.2rem;
+    color: #2a5298;
+}
